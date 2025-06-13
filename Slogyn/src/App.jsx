@@ -28,7 +28,7 @@ function App() {
     setError("");
     setShowFacts(false); //initially hidden
 
-    const factTimer = setTimeout(() => {setShowFacts(true)}, 3000);  //loaded after delay of 3 sec
+    const factTimer = setTimeout(() => {setShowFacts(true)}, 1500);  //loaded after delay of 1.5 sec
 
     try {
       const response = await axios.post(`${API_URL}/`, {
