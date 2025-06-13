@@ -182,6 +182,8 @@ function App() {
         </button>
         </div>
       </div>
+      <SpeedInsights/>
+      <Analytics/>
     </>
   );
 }
