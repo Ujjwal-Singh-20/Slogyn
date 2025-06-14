@@ -5,6 +5,7 @@ import RandomFacts from '../components/randomFacts';
 import { SloganOutput } from '../components/sloganOutput';
 import SloganGeneratorForm from '../components/sloganGeneratorForm';
 import RANDOM_FACTS from '../data/randomFacts';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 // import { InferenceClient } from "@huggingface/inference";
 
 const API_URL = "https://slogan-generator-3-452522242685.us-central1.run.app";
@@ -182,6 +183,7 @@ function App() {
         </button>
         </div>
       </div>
+      <SpeedInsights />
       {/* <SpeedInsights/>
       <Analytics/> */}
     </>
